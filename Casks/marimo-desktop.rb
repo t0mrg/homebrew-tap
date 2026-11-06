@@ -1,5 +1,5 @@
 cask "marimo-desktop" do
-  version "0.2.0"
+  version "0.1.0"
   sha256 "b3e207d51769c2e28ed5f4de74b39ec095835d84d165fbd4dfb1c2448b8235be"
 
   url "https://github.com/t0mrg/MarimoDesktop/releases/download/v#{version}/MarimoDesktop.zip"
