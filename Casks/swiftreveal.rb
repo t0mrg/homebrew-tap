@@ -1,12 +1,12 @@
 cask "swiftreveal" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.9.0"
+  version "0.9.1"
   on_arm do
-    sha256 "ce9d51faece52a4681902d5858a59866bab5ad6317741b4e9a542522b3d40bef"
+    sha256 "2cd888289456f0c727da5e01714c881073c40816d284f64f8c8a307b9e8cf31d"
   end
   on_intel do
-    sha256 "b361d1bde7456589de0220e76c15aa740a38dbd5e05974bedddc4c98c4e775cc"
+    sha256 "d44025159b206106c554b2e2b14228c9ac5c81296eeac9a2f19475b9735d7532"
   end
 
   url "https://github.com/t0mrg/swiftreveal/releases/download/v#{version}/SwiftReveal-macOS-#{arch}.zip"
